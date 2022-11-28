@@ -1,0 +1,172 @@
+# ResFinder phenotype results.
+# Sample: contigs.fsa
+# 
+# The phenotype 'No resistance' should be interpreted with
+# caution, as it only means that nothing in the used
+# database indicate resistance, but resistance could exist
+# from 'unknown' or not yet implemented sources.
+# 
+# The 'Match' column stores one of the integers 0, 1, 2, 3.
+#      0: No match found
+#      1: Match < 100% ID AND match length < ref length
+#      2: Match = 100% ID AND match length < ref length
+#      3: Match = 100% ID AND match length = ref length
+# If several hits causing the same resistance are found,
+# the highest number will be stored in the 'Match' column.
+
+# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+linezolid	oxazolidinone	No resistance	0	
+rifampicin	rifamycin	No resistance	0	
+neomycin	aminoglycoside	No resistance	0	
+dibekacin	aminoglycoside	No resistance	0	
+fortimicin	aminoglycoside	No resistance	0	
+streptomycin	aminoglycoside	No resistance	0	
+isepamicin	aminoglycoside	No resistance	0	
+gentamicin	aminoglycoside	No resistance	0	
+sisomicin	aminoglycoside	No resistance	0	
+netilmicin	aminoglycoside	No resistance	0	
+apramycin	aminoglycoside	No resistance	0	
+hygromycin	aminoglycoside	No resistance	0	
+lividomycin	aminoglycoside	No resistance	0	
+butiromycin	aminoglycoside	No resistance	0	
+kasugamycin	aminoglycoside	No resistance	0	
+tobramycin	aminoglycoside	No resistance	0	
+ribostamycin	aminoglycoside	No resistance	0	
+gentamicin c	aminoglycoside	No resistance	0	
+amikacin	aminoglycoside	No resistance	0	
+g418	aminoglycoside	No resistance	0	
+bleomycin	aminoglycoside	No resistance	0	
+kanamycin a	aminoglycoside	No resistance	0	
+unknown aminoglycoside	aminoglycoside	No resistance	0	
+astromicin	aminoglycoside	No resistance	0	
+arbekacin	aminoglycoside	No resistance	0	
+paromomycin	aminoglycoside	No resistance	0	
+butirosin	aminoglycoside	No resistance	0	
+kanamycin	aminoglycoside	No resistance	0	
+fluoroquinolone	quinolone	No resistance	0	
+nalidixic acid	quinolone	No resistance	0	
+unknown quinolone	quinolone	No resistance	0	
+ciprofloxacin	quinolone	No resistance	0	
+fosfomycin	fosfomycin	No resistance	0	
+azithromycin	macrolide	No resistance	0	
+telithromycin	macrolide	No resistance	0	
+carbomycin	macrolide	No resistance	0	
+oleandomycin	macrolide	No resistance	0	
+erythromycin	macrolide	No resistance	0	
+spiramycin	macrolide	No resistance	0	
+tylosin	macrolide	No resistance	0	
+mupirocin	pseudomonic acid	No resistance	0	
+doxycycline	tetracycline	Resistant	3	tet(B) (tet(B)_AF326777)
+minocycline	tetracycline	Resistant	3	tet(B) (tet(B)_AF326777)
+tigecycline	tetracycline	No resistance	0	
+tetracycline	tetracycline	Resistant	3	tet(B) (tet(B)_AF326777)
+trimethoprim	folate pathway antagonist	No resistance	0	
+sulfamethoxazole	folate pathway antagonist	No resistance	0	
+tiamulin	pleuromutilin	No resistance	0	
+fusidic acid	steroid antibacterial	No resistance	0	
+clindamycin	lincosamide	No resistance	0	
+lincomycin	lincosamide	No resistance	0	
+colistin	polymyxin	No resistance	0	
+chlorhexidine	quaternary ammonium compound	No resistance	0	
+benzylkonium chloride	quaternary ammonium compound	No resistance	0	
+ethidium bromide	quaternary ammonium compound	No resistance	0	
+cetylpyridinium chloride	quaternary ammonium compound	No resistance	0	
+florfenicol	amphenicol	No resistance	0	
+chloramphenicol	amphenicol	No resistance	0	
+formaldehyde	aldehyde	No resistance	0	
+spectinomycin	aminocyclitol	No resistance	0	
+ceftiofur	under_development	No resistance	0	
+quinupristin+dalfopristin	streptogramin a	No resistance	0	
+pristinamycin iia	streptogramin a	No resistance	0	
+virginiamycin m	streptogramin a	No resistance	0	
+dalfopristin	streptogramin a	No resistance	0	
+hydrogen peroxide	peroxide	No resistance	0	
+quinupristin	streptogramin b	No resistance	0	
+virginiamycin s	streptogramin b	No resistance	0	
+pristinamycin ia	streptogramin b	No resistance	0	
+teicoplanin	glycopeptide	No resistance	0	
+vancomycin	glycopeptide	No resistance	0	
+temperature	heat	No resistance	0	
+metronidazole	nitroimidazole	No resistance	0	
+amoxicillin+clavulanic acid	beta-lactam	No resistance	0	
+unknown beta-lactam	beta-lactam	No resistance	0	
+ceftazidime+avibactam	beta-lactam	No resistance	0	
+piperacillin+clavulanic acid	beta-lactam	No resistance	0	
+cefotaxime+clavulanic acid	beta-lactam	No resistance	0	
+penicillin	beta-lactam	No resistance	0	
+aztreonam	beta-lactam	No resistance	0	
+piperacillin+tazobactam	beta-lactam	No resistance	0	
+amoxicillin	beta-lactam	No resistance	0	
+ceftriaxone	beta-lactam	No resistance	0	
+ertapenem	beta-lactam	No resistance	0	
+ticarcillin	beta-lactam	No resistance	0	
+cefoxitin	beta-lactam	No resistance	0	
+piperacillin	beta-lactam	No resistance	0	
+cephalotin	beta-lactam	No resistance	0	
+cefotaxime	beta-lactam	No resistance	0	
+ampicillin+clavulanic acid	beta-lactam	No resistance	0	
+cefixime	beta-lactam	No resistance	0	
+cefepime	beta-lactam	No resistance	0	
+imipenem	beta-lactam	No resistance	0	
+ticarcillin+clavulanic acid	beta-lactam	No resistance	0	
+temocillin	beta-lactam	No resistance	0	
+ampicillin	beta-lactam	No resistance	0	
+cephalothin	beta-lactam	No resistance	0	
+ceftazidime	beta-lactam	No resistance	0	
+meropenem	beta-lactam	No resistance	0	
+
+# WARNING: Missing features from phenotype database:
+# Feature_ID	Region	Database	Hit
+16S_rrsC_253_t	16S_rrsC;;16S_rrsC;;voqe;;16S_rrsC;;pbjm;;16S_rrsC;;noim;;16S_rrsC;;qrcn;;16S_rrsC;;fpry;;16S_rrsC;;xslv		
+23S_1730_t	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+23S_1178_t	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsB_80_c	16S_rrsB;;16S_rrsB;;ruhn;;16S_rrsB;;ujvy;;16S_rrsB;;duwo;;16S_rrsB;;hmdo;;16S_rrsB;;vzee;;16S_rrsB;;bnvt		
+16S_rrsB_253_t	16S_rrsB;;16S_rrsB;;ruhn;;16S_rrsB;;ujvy;;16S_rrsB;;duwo;;16S_rrsB;;hmdo;;16S_rrsB;;vzee;;16S_rrsB;;bnvt		
+16S_rrsB_93_c	16S_rrsB;;16S_rrsB;;ruhn;;16S_rrsB;;ujvy;;16S_rrsB;;duwo;;16S_rrsB;;hmdo;;16S_rrsB;;vzee;;16S_rrsB;;bnvt		
+23S_1229_t	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsC_273_a	16S_rrsC;;16S_rrsC;;voqe;;16S_rrsC;;pbjm;;16S_rrsC;;noim;;16S_rrsC;;qrcn;;16S_rrsC;;fpry;;16S_rrsC;;xslv		
+23S_2794_t	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+23S_2802_a	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+pmrB_283_g	pmrB		
+23S_1723_a	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsH_90_t	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+16S_rrsH_80_c	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+23S_1173_t	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+23S_1727_a	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+23S_1171_a	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+23S_1734_c	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+23S_2799_g	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsH_474_a	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+16S_rrsH_1038_c	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+16S_rrsH_89_g	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+23S_2211_g	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsH_1019_a	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+16S_rrsH_79_a	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+16S_rrsB_273_a	16S_rrsB;;16S_rrsB;;ruhn;;16S_rrsB;;ujvy;;16S_rrsB;;duwo;;16S_rrsB;;hmdo;;16S_rrsB;;vzee;;16S_rrsB;;bnvt		
+23S_1733_t	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsH_1006_g	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+23S_137_a	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsB_250_t	16S_rrsB;;16S_rrsB;;ruhn;;16S_rrsB;;ujvy;;16S_rrsB;;duwo;;16S_rrsB;;hmdo;;16S_rrsB;;vzee;;16S_rrsB;;bnvt		
+16S_rrsB_89_g	16S_rrsB;;16S_rrsB;;ruhn;;16S_rrsB;;ujvy;;16S_rrsB;;duwo;;16S_rrsB;;hmdo;;16S_rrsB;;vzee;;16S_rrsB;;bnvt		
+23S_1726_g	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+23S_2796_c	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsH_1120_c	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+16S_rrsH_1002_g	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+ampC-promoter_-1_t	ampC-promoter		
+16S_rrsH_1023_g	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+23S_1865_c	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsH_1010_t	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+16S_rrsH_1021_a	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+16S_rrsH_250_t	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+16S_rrsH_253_t	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+23S_1725_c	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+16S_rrsC_226_g	16S_rrsC;;16S_rrsC;;voqe;;16S_rrsC;;pbjm;;16S_rrsC;;noim;;16S_rrsC;;qrcn;;16S_rrsC;;fpry;;16S_rrsC;;xslv		
+16S_rrsH_273_a	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
+23S_1211_t	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+parC_62_k	parC		
+16S_rrsC_250_t	16S_rrsC;;16S_rrsC;;voqe;;16S_rrsC;;pbjm;;16S_rrsC;;noim;;16S_rrsC;;qrcn;;16S_rrsC;;fpry;;16S_rrsC;;xslv		
+23S_1735_g	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+23S_1220_a	23S;;23S;;vlxb;;23S;;gqex;;23S;;nmwo;;23S;;pxsn;;23S;;wrir;;23S;;exkx		
+ampC-promoter_-18_a	ampC-promoter		
+pmrB_358_n	pmrB		
+16S_rrsH_93_c	16S_rrsH;;16S_rrsH;;ixhk;;16S_rrsH;;qfbs;;16S_rrsH;;kihb;;16S_rrsH;;fhuf;;16S_rrsH;;vmal;;16S_rrsH;;jxry		
